@@ -19,7 +19,7 @@ class scorecard(Turtle):
         self.write(f"Score : {self.score}", align = "center",font = ("Arial",18,"normal"))
     
     def game_over(self):
-        self.clear()
+        
         self.goto(0,0)
         self.write("GAME OVER",align ="center",font = ("Arial",24,"bold"))
         self.show_restart_message()
