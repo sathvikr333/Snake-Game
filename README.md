@@ -8,6 +8,7 @@ A simple Snake Game made using Python and Turtle module.
 - Snake grows after eating food
 - Game over when snake hits the wall or itself
 - Restart and quit options
+- Persistent high score using file handling
 
 ## Built With
 - Python
